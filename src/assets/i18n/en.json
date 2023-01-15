@@ -1,0 +1,16 @@
+{
+  "header":{
+    "home": "Home",
+    "favourite": "Favourite"
+  },
+  "book": {
+    "favourite": "Favourite",
+    "view": "view",
+    "chapters": "Chapters",
+    "publishedDate": "Published Date"
+  },
+  "confirmation": {
+    "confirmation": "Confirmation",
+    "confirmationText": "Do you like to proceed further?"
+  }
+}

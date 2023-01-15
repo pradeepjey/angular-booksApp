@@ -1,0 +1,23 @@
+.modal-header{
+    height: 32px;
+    padding: 8px;
+    background: #3f51b5;
+    color: #FFF;
+    width: 320px;
+    h3{
+        float: left;
+    }
+    span{
+        float: right;
+    }
+}
+.modal-body{
+    padding: 24px 8px;
+    width: 320px;
+}
+.modal-footer{
+    width: 320px;
+    div{
+        float: right;
+    }
+}

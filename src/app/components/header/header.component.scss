@@ -1,0 +1,48 @@
+.example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+.nav{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item{
+    margin: 14px 0px;
+    padding: 2px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    a{
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+.nav-item.active{
+    background: rgba(0,0,0,.2);
+}
+.flex-containter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.menu-list{
+    width: 200px;
+}
+.search-box{
+    width: calc(100% - 200px);
+    height: 64px;
+}
+@media (max-width: 912px) {
+    .menu-list{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .search-box{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .mat-toolbar-single-row{
+        height: 180px;
+    }
+}

@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <h3 class="modal-title">{{ 'confirmation.confirmation' | translate }} </h3>
+    <span aria-label="Close" class="close" (click)="onNoClick()" data-automation-attribute="button-close-dialog">
+        <mat-icon>clear</mat-icon>
+    </span>
+</div>
+
+<div class="modal-body">
+    <p>{{ 'confirmation.confirmation' | translate }}</p>
+</div> 
+
+<div class="modal-footer">
+    <div mat-dialog-actions>
+        <button mat-mini-fab class="btnCyan" (click)="onYesClick()">
+            <mat-icon class="icon-color icon-save">done</mat-icon>
+        </button>
+        <button mat-mini-fab class="btnRed" (click)="onNoClick()" data-automation-attribute="button-no">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+</div>

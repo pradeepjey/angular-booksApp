@@ -1,0 +1,4 @@
+<div id="search-div">
+    <input matInput type="text" id="background-input" [(ngModel)]="predictedValue" />
+    <input matInput type="text" (keyup)="keyupComplete($event)" [(ngModel)]="typedValue" id="search" />
+</div>

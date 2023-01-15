@@ -1,0 +1,34 @@
+.example-card {
+    max-width: 400px;
+    margin: 8px;
+}
+.avatar-img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: scale-down;
+}
+.mat-grid-list{
+    width: 100%;
+}
+.rating-section{
+    width: 60%;
+}
+.summary-short{
+    color: #504848;
+}
+.mat-mdc-extended-fab{
+    height: 32px;
+}
+.fav-btn{
+    width: 100%;
+    padding: 0px 5px;
+}
+.infavourite{
+    background-color: #fff;
+    color: #3f51b5;
+}
+.favourtie{
+    background-color: #3f51b5;
+    color: #fff;
+}
