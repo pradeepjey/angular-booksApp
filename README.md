@@ -2,6 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
+# Application Requirements
+
+The application needs to be a minimum version of listed below.
+
+1. Angular 15.x 
+2. Node.js 18.x and npm 8.x
+
+## Quick start
+
+```bash
+# select a repo from github
+
+# download the example or clone the repo from github
+git clone https://github.com/pradeepjey/angular-booksApp.git
+
+# change directory
+cd angular-booksApp
+
+# install the repo with npm
+npm install
+
+# start the server
+npm start
+
+```
+give backend server baseurl in environments/environment.ts -> baseUrl
+in your browser go to [http://localhost:4200](http://localhost:4200) 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
