@@ -27,7 +27,7 @@ npm install
 npm start
 
 ```
-give backend server baseurl in environments/environment.ts -> baseUrl
+give backend server baseurl in environments/environment.ts -> baseUrl.
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
 ## Development server
